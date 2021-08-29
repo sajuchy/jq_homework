@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--  CSS link here -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>BTS5</title>
+  </head>
+  <body>
+    <header class="fixed-top">
+      <div class="continer">
+        <nav class="navbar navbar-expand-lg navbar-light bg-warning c_menu">
+          <div class="container p-0">
+            <a class="navbar-brand" href="#"><h1 class="text-uppercase fs-2 text-dark">Jquery</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="accordian.html" target="-">Accordian</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="dragg.html" target="-">Dragg</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="effect.html" target="-">Effect</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="feature.html" target="-">Feature</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="slide.html" target="-">Slide</a>
+                </li>
+              
+               
+              </ul>
+              
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- jquery start -->
+    <section class="home">
+     
+      <div class="container">
+        <h1 class="text-center bg-dark text-white mt-5">Jquery start from here</h1>
+        <div class="text-center mt-5 mb-5">
+          <h1 class="text-center bg-info">Click Button to get alert by jquery</h1>
+          <button class="btn btn-success mt-5" id="btx">Click To Get </button>
+        </div>
+
+        <div class="text-center mt-5 mb-5">
+          <h1 class="text-center bg-info">Click Button to change text by jquery</h1>
+          <h1 id="hh1">Welcome to SSB</h1>
+          <button class="btn btn-success mt-5" id="bty">Click To change </button>
+          <button class="btn btn-danger mt-5" id="btyReset">Reset</button>
+        </div>
+
+        <div class="text-center mt-5 mb-5">
+          <h1 class="text-center bg-info">Click Button to change color by jquery</h1>
+          <h1 id="hh2">Welcome to SSB</h1>
+          <p id="pp1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero dolorem debitis corporis quasi a recusandae ipsum maxime id deserunt hic!</p>
+          <button class="btn btn-success mt-5" id="btz">Click To change color</button>
+          <button class="btn btn-danger mt-5" id="btzReset">Reset</button>
+        </div>
+        <div class="text-center mt-5 mb-5">
+          
+          
+          <div class="d-block m-auto">
+          <img src="images/image-plane.jpg" alt="img-1" id="imga" class="img-fluid">
+          </div>
+      
+          <button class="btn btn-success mt-5" id="bta">Hide</button>
+          <button class="btn btn-danger mt-5" id="btaReset">Show</button>
+          <button class="btn btn-danger mt-5" id="toggle">Toggle</button>
+        </div>
+        <div class="text-center">
+          <h1 class="text-center bg-info mb-5">Demonstrate fadeIn/out() with different parameters</h1>
+
+          <button class="btn btn-success" id="btf">Click to fade in boxes</button>
+          <button class="btn btn-danger ms-2" id="btf2">Click to fadeOut boxes</button> 
+          <button class="btn btn-info ms-2" id="btf3">Click to fadeToggle boxes</button> 
+          <button class="btn btn-warning ms-2" id="btf4">Click to fadeTo boxes</button> <br>
+          
+         <div class="mt-5">
+          <div class="m-auto" id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+          <div class="m-auto" id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+          <div class="m-auto" id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+         </div>
+        </div>
+        <!-- slideDown -->
+        <h1 class="text-center bg-info mb-5">slide-up/down</h1>
+        <div id="toggleHere" class="text-center">slideDown</div>
+        
+        <div class="text-center mb-3"><img src="images/image-restaurant.jpg" alt="" id="content"></div>
+        <div id="toggleUp" class="text-center">slide up</div>
+
+        
+        
+      </div>
+    </section>
+
+    <!-- mouse event -->
+
+    <section>
+      <div class="container">
+        <h1 class="text-center bg-info mb-5 mt-5"> Click() function to hide content</h1>
+        <div class="text-center">
+          <p class="pp-1">First Paragraph</p>
+          <p class="pp-1">Second Paragraph</p>
+          <p class="pp-1">Yet one more Paragraph</p>
+        </div>
+      </div>
+
+      <div>
+        <h1 class="text-center bg-info mb-5 mt-5"> Mouse Hover </h1>
+        <ul >
+          <li class="fs-2" id="le">Milk</li>
+          <li class="fs-2" id="le2">Bread</li>
+          <li class="fadez fs-2" id="le">Chips</li>
+          <li class=" fadez fs-2" id="le">Socks</li>
+        </ul>
+
+        <h1 class="text-center bg-info mb-5 mt-5"> Form Event by using Focus</h1>
+        <div>
+         <div class="row justify-content-center">
+          <div class="col-lg-7 text-center">
+            <p><input type="text" class="form-control  " id="inp"><span class="fs-3">Enter Your Name</span></p>
+          
+          </div>
+          <div class="col-lg-7 text-center">
+            <p><input type="password" class="form-control" id="inpz"><span class="fs-3">Enter Your password</span></p>
+          </div>
+         </div> 
+          
+        </div>
+
+      </div>
+    </section>
+
+    
+
+        
+
+        
+    
+
+
+  
+
+    
+
+    <!-- js link here -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+   
+  </body>
+</html>
